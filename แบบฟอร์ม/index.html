@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>มจท.10</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <form>
+        <header>
+            <div class="container">
+                <p> <b> มจท.&nbsp;10 </b> </p>
+                <img src="https://upload.wikimedia.org/wikipedia/th/4/43/%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B9%82%E0%B8%88%E0%B9%89_edit.png">
+            </div>
+            <div class="n1">
+                <h3> <b>คำร้องขอลาพักการศึกษา</b> </h3>
+            </div>
+            <div class="n2">
+                <p> <b>(สําหรับนักศึกษาที่ได้ศึกษามาแล้ว ไม่น้อยกว่าหนึ่งภาคการศึกษา)</b> </p>
+            </div>
+            <div>
+                <p>เขียนที่ มหาวิทยาลัยแม่โจ้</p>
+            </div>
+            <div class="date">
+                <label for="birthday">วันที่</label>
+                <input type="date" id="date" name="dmy">
+            </div>
+            <div class="subject">
+                <p>
+                    <b>เรื่อง &nbsp; </b> ขอลาพักการศึกษา ในภาคเรียนที่
+                </p>
+            </div>
+            <div class="region" action="/action_page.php">
+                    <select name="cars" id="cars">
+                      <option value="choose">เลือกภาคเรียน</option>
+                      <option value="c1">1</option>
+                      <option value="c2">2</option>
+                      <option value="c2">3</option>
+                    </select>
+            </div>
+            <span class="regionyear">
+                <p>ปีการศึกษาที่</p>
+            </span>
+            <div class="dd" action="/action_page.php">
+                <select name="cc" id="cc">
+                  <option value="choose">เลือกปีการศึกษา</option>
+                  <option value="c1">2563</option>
+                  <option value="c2">2564</option>
+                </select>
+            </div>
+            <div class="board">
+                <p>
+                    <b>เรียน &nbsp; </b> คณบดีคณะ
+                </p>
+            </div>
+            <div class="ipb">
+                <input type="text" value="" size="37">
+            </div>
+        </header>
+        <section>
+            <div class="nameuser">
+                <p>
+                    ข้าพเจ้า
+                </p>
+                
+            </div>
+            <div class="radio"><input type="radio" name="gender" id="male"> &nbsp; นาย </div>
+            <div class="radio2"><input type="radio" name="gender" id="female"> &nbsp; นาง </div>
+            <div class="radio3"><input type="radio" name="gender" id="female2"> &nbsp; นางสาว &nbsp; &nbsp; ชื่อ-นามสกุล</div>
+
+            <div class="user">
+                <input type="text" value="" size="30">&nbsp; &nbsp;  -
+            </div>
+            <div class="user2">
+                <input type="text" value="" size="30">
+            </div>
+
+            <div class="idstudent">
+                รหัสนักศึกษา &nbsp;(10&nbsp;หลัก)
+            </div>
+            <div class="textidstudent">
+                <input type="text" value="" size="30">
+            </div>
+            <div class="phone">
+                โทรศัพท์มือถือ &nbsp;(10&nbsp;หลัก)
+            </div>
+            <div class="textphone">
+                <input type="text" value="" size="30">&nbsp; &nbsp; โปรดดระบุ
+            </div>
+            <div class="couse">
+                หลักสูตร &nbsp; ปริญญาตรี &nbsp;
+            </div>
+            <div class="checkbox1"><input type="checkbox" name="" id=""> &nbsp; 4-5 &nbsp;ปี </div>
+            <div class="checkbox2"><input type="checkbox" name="" id=""> &nbsp; 4&nbsp;ปีเทียบเข้าเรียน&nbsp;&nbsp;(2ปี) </div>
+            <div class="checkbox3"><input type="checkbox" name="" id=""> &nbsp; ภาคปกติ &nbsp;ปี </div>
+            <div class="checkbox4"><input type="checkbox" name="" id=""> &nbsp; ภาคสมทบ </div>
+            <div class="saka">
+                สาขาวิชา
+            </div>
+            <div class="textsaka">
+                <input type="text" value="" size="44">
+            </div>
+            <div class="kana">
+                คณะ
+            </div>
+            <div class="textkana">
+                <input type="text" value="" size="48">
+            </div>
+            <div class="want">
+                มีความประสงค์ขอลาพักการศึกษา &nbsp; เนื่องจาก
+            </div>
+            <div class="textwant">
+                <input type="text" value="" size="101">
+            </div>
+            <div class="paragraph">
+                พร้อมนี้ได้แนบใบยินยอมขอลาพักการศึกษาจากผู้ปกครอง &nbsp; / &nbsp; ใบรับรองแพทย์ &nbsp; / &nbsp; เอกสารอื่นๆ
+            </div>
+            <div class="paragraph2">
+                จึงเรียนมาเพื่อโปรดพิจารณา
+            </div>
+            <div class="signature">
+                ขอแสดงความนับถือ
+            </div>
+            <div class="picture">
+                <input type="file" id="img" name="img" > (1)
+            </div>
+            <div class="std">
+                นักศึกษา
+            </div>
+            <div class="content-grid">
+                <div class="grid">
+                    <div class="grid-one">
+                        (2) ความเห็นหัวหน้ากลุ่มภาระกิจทะเบียน &nbsp; ประมวลผลฯ
+                        <div class="cb1"><input type="checkbox" name="" id="">&nbsp;ทราบ &nbsp;นักศึกษาดังกล่าวสามารถลาพักได้</div>
+                        <div class="cb2">
+                            <input type="checkbox" name="" id="">&nbsp; ภาคเรียนที่ &nbsp; 1&nbsp;&nbsp;&nbsp;
+                            <input type="checkbox" name="" id="">&nbsp; ภาคเรียนที่ &nbsp; 2
+                        </div>
+                        <div class="cb3"></div>
+                        <div class="input"><input type="text" value=""></div>
+                        <div class="img"><input type="file" id="img" name="img" ></div>
+                        หัวหน้ากลุ่มภาระกิจทะเบียน &nbsp; ประมวลผลฯ<br>
+                        <div class="date-g2">
+                            <label for="birthday">วันที่</label>
+                            <input type="date" id="date" name="dmy">
+                        </div>
+                    </div>
+                    <div class="grid-one">
+                        (3) ความเห็นผู้อํานวยการสํานักบริหารและพัฒนาวิชาการ
+                        <div class="cb4"><input type="checkbox" name="" id="">&nbsp;ทราบ </div>
+                        <div class="input"><input type="text" value=""></div>
+                        <div class="img"><input type="file" id="img" name="img" ></div>
+                        ผู้อํานวยการสํานักบริหารและพัฒนาวิชาการ
+                        <div class="date-g2">
+                            <label for="birthday">วันที่</label>
+                            <input type="date" id="date" name="dmy">
+                        </div>
+                    </div>
+                    <div class="grid-one">
+                        (4) ความเห็นอาจารย์ที่ปรึกษา
+                        <div><input type="checkbox" name="" id="">&nbsp;ทราบ </div>
+                        <div class="input"><input type="text" value=""></div>
+                        <div class="img"><input type="file" id="img" name="img" ></div>                    
+                        <div class="date-g2">
+                            <label for="birthday">วันที่</label>
+                            <input type="date" id="date" name="dmy">
+                        </div>
+                    </div>
+                    <div class="grid-one">
+                        (5) ความเห็นประธานคณะกรรมการประจำหลักสูตร
+                        <div class="yes"><input type="checkbox" name="" id="">&nbsp;ทราบ </div>
+                        <div class="input"><input type="text" value=""></div>
+                        <div class="img"><input type="file" id="img" name="img" ></div>
+                        <div class="date-g2">
+                            <label for="birthday">วันที่</label>
+                            <input type="date" id="date" name="dmy">
+                        </div>
+                    </div>
+                    <div class="grid-one">
+                        (6) ความเห็นคณบดี
+                        <div class="yes">
+                            <input type="checkbox" name="" id="">&nbsp;อนุมัติ &nbsp;&nbsp;
+                            <input type="checkbox" name="" id="">&nbsp;ไม่อนุมัติ 
+                        </div>
+                        <div></div>
+                        <div class="input"><input type="text" value=""></div>
+                        <div class="img"><input type="file" id="img" name="img" ></div>
+                        <div class="date-g2">
+                            <label for="birthday">วันที่</label>
+                            <input type="date" id="date" name="dmy">
+                        </div>
+                    </div>
+                    <div class="grid-one">
+                        (7) งานเงินรายได้ กองคลัง ชั้นที่ 2 อาคารอิงคศรีกสิการ<br>ได้รับการชำระเงินจำนวน
+                        <div><input type="checkbox" name="" id="">&nbsp;ภาคเรียนที่ 1 1,200 บาท &nbsp; &nbsp;
+                            <input type="checkbox" name="" id="">&nbsp;ภาคเรียนที่ 2 1,000 บาท
+                        </div>
+                        <div> </div>
+                        <div class="input"><input type="text" value=""></div>
+                        <div class="img"><input type="file" id="img" name="img" ></div>
+                        <div class="date-g2">
+                            <label for="birthday">วันที่</label>
+                            <input type="date" id="date" name="dmy">
+                        </div>
+                    </div>
+                    <div class="grid-one8">
+                        (8) ส่งเอกสารคำร้องขอลาพักการศึกษาตัวจริง ให้กลุ่มภารกิจ<br>
+                        ทะเบียนชั้น 2 อาคารอำนวยยศสุขเพื่อบันทึกคำร้องขอลา<br>
+                        พักการศึกษาและให้นักศึกษาเก็บหลักฐานใบเสร็จที่ชำระเงินไว้<br>
+                        เพื่อตรวจสอบการบันทึกการลาพักการศึกษา   
+                    </div>
+                    <div class="grid-one">
+                        (9) สำหรับเจ้าหน้าที่บันทึกลงฐานข้อมูล ได้บันทึกการข้อมูล<br>
+                        ดังกล่าว ในวันที่ <input type="date" id="date" name="dmy">
+                        <div class="input"><input type="text" value=""></div>
+                        <div class="img"><input type="file" id="img" name="img" ></div>
+                        <div class="date-g2">
+                            <input type="date" id="date" name="dmy">
+                        </div>
+                    </div>           
+                </div>
+                <div class="submit">
+                    <input type="submit" name="" id="">
+                </div>
+            </div>
+        </section>
+        <script>
+            // Example starter JavaScript for disabling form submissions if there are invalid fields
+            (function () {
+                'use strict'
+
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.querySelectorAll('.needs-validation')
+
+                // Loop over them and prevent submission
+                Array.prototype.slice.call(forms)
+                    .forEach(function (form) {
+                        form.addEventListener('submit', function (event) {
+                            if (!form.checkValidity()) {
+                                event.preventDefault()
+                                event.stopPropagation()
+                            }
+
+                            form.classList.add('was-validated')
+                        }, false)
+                    })
+            })()
+        </script>
+    </form>
+    <form >
+        <header>
+            <div class="container">
+                <div class="main">
+                    <h3> <b>คำร้องขอลาพักการศึกษา</b> </h3>
+                </div>
+                <div class="write">
+                    เขียนที่ &nbsp; บ้านเลขที่
+                </div>
+                <div class="textwrite">
+                    <div class="input"><input type="text" value="" size="3"></div>
+                </div>
+                <div class="write2">
+                    หมู่ที่
+                </div>
+                <div class="textwrite2">
+                    <div class="input"><input type="text" value="" size="3"></div>
+                </div>
+                <div class="write3">
+                    ตำบล
+                </div>
+                <div class="textwrite3">
+                    <div class="input"><input type="text" value="" size="7"></div>
+                </div>
+                <div class="write4">
+                    อำเภอ
+                </div>
+                <div class="textwrite4">
+                    <div class="input"><input type="text" value="" size="12"></div>
+                </div>
+                <div class="write5">
+                    จังหวัด
+                </div>
+                <div class="textwrite5">
+                    <div class="input"><input type="text" value="" size="12"></div>
+                </div>
+                <div class="write6">
+                    รหัสไปรษณี
+                </div>
+                <div class="textwrite6">
+                    <div class="input"><input type="text" value="" size="9"></div>
+                </div>
+                <div class="write7">
+                    โทรศัพท์
+                </div>
+                <div class="textwrite7">
+                    <div class="input"><input type="text" value="" size="12"></div>
+                </div>
+                <div class="datesubmit">
+                    <label for="birthday">วันที่</label>
+                    <input type="date" id="date" name="dmy" >
+                </div>
+
+            
+                <div class="subject2">
+                        <b>เรื่อง &nbsp; </b> ยินยอมให้นักศึกษาลาพักการศึกษา ในภาคเรียนที่
+                </div>
+                <div class="dropdown2" action="/action_page.php">
+                        <select name="cars" id="cars">
+                          <option value="choose">เลือกภาคเรียน</option>
+                          <option value="c1">1</option>
+                          <option value="c2">2</option>
+                        </select>
+                </div>
+                <div class="tbdropdown2">
+                    ปีการศึกษาที่
+                </div>
+                <div class="dd2" action="/action_page.php">
+                    <select name="cc" id="cc">
+                      <option value="choose">เลือกปีการศึกษา</option>
+                      <option value="c1">2563</option>
+                      <option value="c2">2564</option>
+                    </select>
+                </div>
+                <div class="board2">
+                        <b>เรียน &nbsp; </b> คณบดีคณะ  
+                </div>
+                <div class="ipboard2">
+                    <input type="text" value="" size="36">
+                </div>
+            </header>
+            <section>
+                <div class="nameuser">
+                    <p>
+                        ตามที่
+                    </p>
+                    
+                </div>
+                <div class="radio"><input type="radio" name="gender" id="male"> &nbsp; นาย </div>
+                <div class="radio2"><input type="radio" name="gender" id="female"> &nbsp; นาง </div>
+                <div class="radio3"><input type="radio" name="gender" id="female2"> &nbsp; นางสาว &nbsp; &nbsp; ชื่อ-นามสกุล</div>
+    
+                <div class="user">
+                    <input type="text" value="" size="30">&nbsp; &nbsp;  -
+                </div>
+                <div class="user2">
+                    <input type="text" value="" size="30">
+                </div>
+    
+                <div class="idstudent">
+                    รหัสนักศึกษา &nbsp;(10&nbsp;หลัก)
+                </div>
+                <div class="textidstudent">
+                    <input type="text" value="" size="30">
+                </div>
+                <div class="phone">
+                    โทรศัพท์มือถือ &nbsp;(10&nbsp;หลัก)
+                </div>
+                <div class="textphone">
+                    <input type="text" value="" size="30">&nbsp; &nbsp; โปรดดระบุ
+                </div>
+                <div class="couse">
+                    หลักสูตร &nbsp; ปริญญาตรี &nbsp;
+                </div>
+                <div class="checkbox1"><input type="checkbox" name="" id=""> &nbsp; 4-5 &nbsp;ปี </div>
+                <div class="checkbox2"><input type="checkbox" name="" id=""> &nbsp; 4&nbsp;ปีเทียบเข้าเรียน&nbsp;&nbsp;(2ปี) </div>
+                <div class="checkbox3"><input type="checkbox" name="" id=""> &nbsp; ภาคปกติ &nbsp;ปี </div>
+                <div class="checkbox4"><input type="checkbox" name="" id=""> &nbsp; ภาคสมทบ </div>
+                <div class="saka">
+                    สาขาวิชา
+                </div>
+                <div class="textsaka">
+                    <input type="text" value="" size="44">
+                </div>
+                <div class="kana">
+                    คณะ
+                </div>
+                <div class="textkana">
+                    <input type="text" value="" size="48">
+                </div>
+                <div class="want">
+                    ซึ่งเป็นนักศึกษาในความปกครองของข้าพเจ้ามีความประสงค์ขอลาพักการศึกษา ในภาคเรียนที่
+                </div>
+                <div class="textwant">
+                    <div class="dropdown3" action="/action_page.php">
+                        <select name="cars" id="cars">
+                          <option value="choose">เลือกภาคเรียน</option>
+                          <option value="c1">1</option>
+                          <option value="c2">2</option>
+                        </select>
+                </div>
+                <div class="tbdropdown6">
+                    ปีการศึกษาที่
+                </div>
+                <div class="dd6" action="/action_page.php">
+                    <select name="cc" id="cc">
+                      <option value="choose">เลือกปีการศึกษา</option>
+                      <option value="c1">2563</option>
+                      <option value="c2">2564</option>
+                    </select>
+                </div>
+                </div>
+                <div class="paragraph">
+                    เนื่องจาก
+                </div>
+                <div class="textparagraph">
+                    <input type="text" value="" size="141">
+                </div>
+                <div class="nameuser">
+                    <p>
+                        ข้าพเจ้า
+                    </p>
+                    
+                </div>
+                <div class="radio"><input type="radio" name="gender" id="male"> &nbsp; นาย </div>
+                <div class="radio2"><input type="radio" name="gender" id="female"> &nbsp; นาง </div>
+                <div class="radio3"><input type="radio" name="gender" id="female2"> &nbsp; นางสาว &nbsp; &nbsp; ชื่อ-นามสกุล</div>
+    
+                <div class="user">
+                    <input type="text" value="" size="35">&nbsp; &nbsp;  -
+                </div>
+                <div class="user2">
+                    <input type="text" value="" size="35">
+                </div>
+                <div class="p-end">
+                    ผู้ปกครองของนักศึกษาดังกล่าวข้างต้น ได้รับทราบการขอลาพักการศึกษาแล้ว และยินดีให้ปฏิบัติตามความประสงค์ของนักศึกษา
+                </div>
+                <div class="paragraph2">
+                    จึงเรียนมาเพื่อโปรดพิจารณา
+                </div>
+                <div class="signature">
+                    ขอแสดงความนับถือ
+                </div>
+                <div class="picture">
+                    <input type="file" id="img" name="img" > 
+                </div>
+                <div class="std">
+                    นักศึกษา
+                </div>
+            </div>
+            <div class="end">
+                ขั้นตอนการเสนอคําร้องลาพักการศึกษา <br>
+                1. นักศึกษากรอกคําร้องขอลาพักการศึกษา<br>
+                2. เสนอคําร้องต่อหัวหน้ากลุ่มภารกิจทะเบียนเรียนาวิชาการ (ชั้น 3 อาคารอํานวย ยศสุข)<br>
+                4. เสนอคําร้องต่ออาจารย์ที่ปรึกษา (คณะที่นักศึกษาสังกัด)<br>
+                5. เสนอคําร้องต่อประธานคณะกรรมการประจําหลักสูตร (คณะที่นักศึกษาสังกัด)<br>
+                6. เสนอคําร้องต่อคณบดี เพื่ออนุมัติ (คณะที่นักศึกษาสังกัด)<br>
+                7. นําคําร้องไปชําระเงิน (กองคลัง ชั้น 2 อาคารอิงคศรีกสิการ)<br>
+                8. นําคําร้องขอลาพักการศึกษา ที่ชําระเงินแล้ว (ยื่นต่อกลุ่มภารกิจทะเบียนเรียนฯ)<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;เพื่อบันทึกฐานข้อมูลนักศึกษาต่อไป<br>
+                9. เจ้าหน้าที่ทะเบียนฯ บันทึกลงฐานข้อมูล นักศึกษาสามารถตรวจสอบได้ในวันต่อไป <br>
+            </div>
+        </header>
+    </form>
+</body>
+
+</html>
